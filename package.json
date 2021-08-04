@@ -1,0 +1,23 @@
+{
+  "name": "apolo-thing-mock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sndmnn/apolo-thing-mock.git",
+  "author": "Henrique Cotta",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "dependencies": {
+    "socket.io-client": "^4.1.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/socket.io-client": "^3.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "scripts": {
+    "start": "node --experimental-json-modules ./src/index.js"
+  }
+}
