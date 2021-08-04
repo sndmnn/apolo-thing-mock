@@ -5,8 +5,8 @@ To run this project you need to copy the `config.json.template`, remove the `.te
 
 Then just run `yarn start` and you should see a message on your console saying that the devices were successfully registered on the server (don't forget to have it running).
 
-# Sensor messaging
-## LED
+# Device messaging
+## Lights
 ### Expects
 ```javascript
 {
